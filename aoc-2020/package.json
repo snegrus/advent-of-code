@@ -1,0 +1,25 @@
+{
+  "name": "aoc-2020",
+  "version": "1.0.0",
+  "description": "Solutions for advent of code 2020",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snegrus/advent-of-code.git"
+  },
+  "author": "Stefan Negrus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snegrus/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/snegrus/advent-of-code#readme",
+  "dependencies": {
+    "@types/node": "^14.14.10"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
