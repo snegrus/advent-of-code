@@ -7,3 +7,7 @@ export function getContent(separator: string = "\n") {
 export function parseNumber(number: string) {
     return Number.parseInt(number, 10);
 }
+
+export function prettyPrint(obj: Object) {
+    console.log(JSON.stringify(obj, null, 4));
+}
