@@ -12,3 +12,5 @@ export function parseNumber(number: string) {
 export function prettyPrint(obj: Object) {
     console.log(JSON.stringify(obj, null, 4));
 }
+
+export const NUMBER_RGX = "[0-9]+";
