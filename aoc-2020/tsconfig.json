@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist",
-    "allowUnreachableCode": true
+    "allowUnreachableCode": true,
+    "downlevelIteration": true
   },
   "lib": ["es2015"]
 }
