@@ -23,4 +23,18 @@ export function getSetIntersection<T>(a: Set<T>, b: Set<T>) {
     return result;
 }
 
+export interface ListElement {
+    next: ListElement;
+    value: number;
+}
+
+export function printList(start: ListElement) {
+    const result = [];
+    result.push(start.value);
+    for (let it = start.next; it != start; it = it.next) {
+        result.push(it.value);
+    }
+    console.log(result);
+}
+
 export const NUMBER_RGX = "[0-9]+";
