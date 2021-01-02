@@ -37,4 +37,12 @@ export function printList(start: ListElement) {
     console.log(result);
 }
 
+export function toString(obj: Object) {
+    return JSON.stringify(obj);
+}
+
+export function fromString<T>(str: string): T {
+    return JSON.parse(str) as T;
+}
+
 export const NUMBER_RGX = "[0-9]+";
